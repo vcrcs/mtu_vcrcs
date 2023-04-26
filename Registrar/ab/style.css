@@ -1,0 +1,215 @@
+/* Body styles */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.page-header-fixed.page-sidebar-closed-hide-logo.page-content-white {
+    height: 100%;
+  width: 100%;
+  background-size: cover;
+    background-repeat: no-repeat;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+    background-color: #f2f2f2;
+  background-image: url("R.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Page container styles */
+.page-container {
+  margin-top: 60px;
+  max-width: 1200px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+/* Page content wrapper styles */
+.page-content-wrapper {
+  float: left;
+  margin: 0 -15px 0 0;
+  width: 100%;
+}
+
+/* Page content styles */
+.page-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* Page bar styles */
+.page-bar {
+  background-color: #f3f3f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* Page breadcrumb styles */
+.page-breadcrumb {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-breadcrumb li {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.page-breadcrumb li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.page-breadcrumb li i {
+  margin: 0 5px;
+}
+
+.page-breadcrumb li span {
+  color: #333;
+}
+
+/* Page title styles */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Portlet styles */
+.portlet {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.portlet-title {
+  background-color: #f3f3f4;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.portlet-title .caption {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.portlet-body {
+  padding: 15px;
+}
+
+/* Form styles */
+.form-horizontal .form-group {
+  margin-bottom: 20px;
+}
+
+.form-group .control-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.form-group .form-control {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: none;
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.form-group .form-control:focus {
+  border-color: #66afe9;
+  box-shadow: none;
+}
+
+.form-control-feedback {
+  line-height: 34px;
+}
+
+.form-control-success {
+  border-color: #3c763d;
+}
+
+.form-control-error {
+  border-color: #a94442;
+}
+
+.form-control-help-block {
+  color: #a94442;
+  margin-top: 5px;
+}
+
+.form-group.has-success .form-control-feedback {
+  color: #3c763d;
+}
+
+.form-group.has-error .form-control-feedback {
+  color: #a94442;
+}
+
+/* Button styles */
+.btn {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+margin-right:900px;
+
+}
+.btn.green {
+    background-color: #4CAF50; /* Set the background color */
+    color: white; /* Set the font color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove any text decoration */
+    display: inline-block; /* Make it a block element */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Change the cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+  }
+
+  .btn.green:hover {
+    background-color: #3e8e41; /* Change the background color on hover */
+  }
+  .form-group.form-md-line-input {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.input-group-btn .btn-primary {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control:focus + .form-control-focus {
+  border-color: #3f51b5;
+}
+
+.help-block {
+  margin-top: 5px;
+  color: #666;
+}
